@@ -1,0 +1,16 @@
+{
+  "name": "testing_npm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "week_3_npm_vitest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^1.2.1"
+  }
+}
