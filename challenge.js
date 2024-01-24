@@ -21,13 +21,14 @@ export function countLetters(a) {
 }
 
 export function isAnagram(a, b) {
-  const sorted_a = a.split('').slice().sort().join('');
-  const sorted_b = b.split('').slice().sort().join('');
+  let sorted_a = a.split('').sort().join('');
+  let sorted_b = b.split('').sort().join('');
   return sorted_a === sorted_b;
 }
 
-// these are much much harder - it's a huge stretch goal, don't worry about getting these done.
-export function isPalindrome() {
-  // implement function
+export function isPalindrome(a) {
+  let pali = a.split('')
+  
+  return
 }
 

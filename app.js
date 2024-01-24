@@ -10,7 +10,8 @@ console.log(splited)
 const sorted = splited.sort()
 console.log(sorted)
 
-// .join('');
+// test .join('');
 
 const joined = sorted.join('')
 console.log(joined)
+
