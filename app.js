@@ -15,3 +15,7 @@ console.log(sorted)
 const joined = sorted.join('')
 console.log(joined)
 
+// test .reverse()
+
+const reversed = a.split().reverse()
+console.log(reversed)

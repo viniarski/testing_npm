@@ -52,9 +52,9 @@ test("isAnagram", function () {
   expect(actual).toBe(expected)
 })
 
-// test('isPalindrome', function () {
-//   const expected = true;
-//   const actual = isPalindrome('kayak')
+test('isPalindrome', function () {
+  const expected = true;
+  const actual = isPalindrome('kayak')
 
-//   expect(actual).toBe(expected)
-// })
+  expect(actual).toBe(expected)
+})

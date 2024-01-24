@@ -1,5 +1,3 @@
-// implement the functions to pass as many of the tests in js-challenges.test.js as you can
-
 export function sum(a, b) {
   return a + b;
 }
@@ -27,8 +25,7 @@ export function isAnagram(a, b) {
 }
 
 export function isPalindrome(a) {
-  let pali = a.split('')
-  
-  return
+  let pali = a.split('').join()
+  let reversePali = a.split('').reverse().join()
+  return pali == reversePali
 }
-
